@@ -1,0 +1,73 @@
+{
+  "type": "changed",
+  "granularity": "line-range",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": 3,
+      "right": 3
+    },
+    {
+      "left": 4,
+      "right": 4
+    },
+    {
+      "left": 5,
+      "right": 5
+    },
+    {
+      "left": 6,
+      "right": 6
+    }
+  ],
+  "spans": [],
+  "regions": [
+    {
+      "side": "left",
+      "startLine": 0,
+      "endLine": 2,
+      "change": "modified",
+      "entityKind": "function",
+      "entityName": "greet",
+      "counterpartStartLine": 0
+    },
+    {
+      "side": "left",
+      "startLine": 4,
+      "endLine": 6,
+      "change": "modified",
+      "entityKind": "function",
+      "entityName": "city",
+      "counterpartStartLine": 4
+    },
+    {
+      "side": "right",
+      "startLine": 0,
+      "endLine": 2,
+      "change": "modified",
+      "entityKind": "function",
+      "entityName": "greet",
+      "counterpartStartLine": 0
+    },
+    {
+      "side": "right",
+      "startLine": 4,
+      "endLine": 6,
+      "change": "modified",
+      "entityKind": "function",
+      "entityName": "city",
+      "counterpartStartLine": 4
+    }
+  ]
+}

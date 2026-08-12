@@ -1,0 +1,55 @@
+{
+  "type": "changed",
+  "granularity": "line-range",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": 3,
+      "right": 3
+    },
+    {
+      "left": null,
+      "right": 4
+    },
+    {
+      "left": null,
+      "right": 5
+    },
+    {
+      "left": 4,
+      "right": 6
+    }
+  ],
+  "spans": [],
+  "regions": [
+    {
+      "side": "left",
+      "startLine": 0,
+      "endLine": 4,
+      "change": "modified",
+      "entityKind": "function",
+      "entityName": "flush",
+      "counterpartStartLine": 0
+    },
+    {
+      "side": "right",
+      "startLine": 0,
+      "endLine": 6,
+      "change": "modified",
+      "entityKind": "function",
+      "entityName": "flush",
+      "counterpartStartLine": 0
+    }
+  ]
+}

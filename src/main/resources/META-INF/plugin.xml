@@ -1,0 +1,32 @@
+<idea-plugin>
+  <depends>com.intellij.modules.platform</depends>
+
+  <description><![CDATA[
+    Shows diffs computed by an external semantic diff tool (difftastic and friends) inside the
+    IDE's own diff viewer, instead of the built-in line-based comparison.
+    <br/><br/>
+    Configure a tool under <b>Settings | Tools | Diff &amp; Merge | Semantic Diff</b>. The plugin
+    only integrates a tool you install yourself; it bundles no binaries.
+  ]]></description>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceImplementation="dev.ov7a.semdiff.ide.SemanticDiffSettings"/>
+
+    <diff.DiffTool implementation="dev.ov7a.semdiff.diff.SemanticDiffTool"/>
+
+    <applicationConfigurable
+        parentId="diff.base"
+        id="settings.semdiff"
+        displayName="Semantic Diff"
+        instance="dev.ov7a.semdiff.settings.SemanticDiffConfigurable"/>
+
+    <notificationGroup id="Semantic Diff" displayType="BALLOON"/>
+
+    <!-- Real defaults for the experimental viewer's span colours, retheme-able per scheme. -->
+    <additionalTextAttributes scheme="Default" file="colorSchemes/SemdiffDefault.xml"/>
+    <additionalTextAttributes scheme="Darcula" file="colorSchemes/SemdiffDarcula.xml"/>
+
+    <!-- Finds installed tools, then makes semantic diff the default viewer if one was found. -->
+    <backgroundPostStartupActivity implementation="dev.ov7a.semdiff.diff.SemanticDiffStartupActivity"/>
+  </extensions>
+</idea-plugin>

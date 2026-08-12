@@ -1,0 +1,655 @@
+{
+  "type": "changed",
+  "granularity": "line-range",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": 3,
+      "right": 3
+    },
+    {
+      "left": 4,
+      "right": 4
+    },
+    {
+      "left": 5,
+      "right": 5
+    },
+    {
+      "left": 6,
+      "right": 6
+    },
+    {
+      "left": 7,
+      "right": 7
+    },
+    {
+      "left": 8,
+      "right": 8
+    },
+    {
+      "left": 9,
+      "right": 9
+    },
+    {
+      "left": 10,
+      "right": 10
+    },
+    {
+      "left": 11,
+      "right": 11
+    },
+    {
+      "left": 12,
+      "right": 12
+    },
+    {
+      "left": 13,
+      "right": 13
+    },
+    {
+      "left": 14,
+      "right": 14
+    },
+    {
+      "left": 15,
+      "right": 15
+    },
+    {
+      "left": 16,
+      "right": 16
+    },
+    {
+      "left": 17,
+      "right": 17
+    },
+    {
+      "left": 18,
+      "right": 18
+    },
+    {
+      "left": 19,
+      "right": 19
+    },
+    {
+      "left": 20,
+      "right": 20
+    },
+    {
+      "left": 21,
+      "right": 21
+    },
+    {
+      "left": 22,
+      "right": 22
+    },
+    {
+      "left": 23,
+      "right": 23
+    },
+    {
+      "left": 24,
+      "right": 24
+    },
+    {
+      "left": 25,
+      "right": 25
+    },
+    {
+      "left": 26,
+      "right": 26
+    },
+    {
+      "left": 27,
+      "right": 27
+    },
+    {
+      "left": 28,
+      "right": 28
+    },
+    {
+      "left": 29,
+      "right": 29
+    },
+    {
+      "left": 30,
+      "right": 30
+    },
+    {
+      "left": 31,
+      "right": 31
+    },
+    {
+      "left": 32,
+      "right": 32
+    },
+    {
+      "left": 33,
+      "right": 33
+    },
+    {
+      "left": 34,
+      "right": 34
+    },
+    {
+      "left": 35,
+      "right": 35
+    },
+    {
+      "left": 36,
+      "right": 36
+    },
+    {
+      "left": 37,
+      "right": 37
+    },
+    {
+      "left": 38,
+      "right": 38
+    },
+    {
+      "left": 39,
+      "right": 39
+    },
+    {
+      "left": 40,
+      "right": 40
+    },
+    {
+      "left": 41,
+      "right": 41
+    },
+    {
+      "left": 42,
+      "right": 42
+    },
+    {
+      "left": 43,
+      "right": 43
+    },
+    {
+      "left": 44,
+      "right": 44
+    },
+    {
+      "left": 45,
+      "right": 45
+    },
+    {
+      "left": 46,
+      "right": 46
+    },
+    {
+      "left": 47,
+      "right": 47
+    },
+    {
+      "left": 48,
+      "right": 48
+    },
+    {
+      "left": 49,
+      "right": 49
+    },
+    {
+      "left": 50,
+      "right": 50
+    },
+    {
+      "left": 51,
+      "right": 51
+    },
+    {
+      "left": 52,
+      "right": 52
+    },
+    {
+      "left": 53,
+      "right": 53
+    },
+    {
+      "left": 54,
+      "right": 54
+    },
+    {
+      "left": 55,
+      "right": 55
+    },
+    {
+      "left": 56,
+      "right": 56
+    },
+    {
+      "left": 57,
+      "right": 57
+    },
+    {
+      "left": 58,
+      "right": 58
+    },
+    {
+      "left": 59,
+      "right": 59
+    },
+    {
+      "left": 60,
+      "right": 60
+    },
+    {
+      "left": 61,
+      "right": 61
+    },
+    {
+      "left": 62,
+      "right": 62
+    },
+    {
+      "left": 63,
+      "right": 63
+    },
+    {
+      "left": 64,
+      "right": 64
+    },
+    {
+      "left": 65,
+      "right": 65
+    },
+    {
+      "left": 66,
+      "right": 66
+    },
+    {
+      "left": 67,
+      "right": 67
+    },
+    {
+      "left": 68,
+      "right": 68
+    },
+    {
+      "left": 69,
+      "right": 69
+    },
+    {
+      "left": 70,
+      "right": 70
+    },
+    {
+      "left": 71,
+      "right": 71
+    },
+    {
+      "left": 72,
+      "right": 72
+    },
+    {
+      "left": 73,
+      "right": 73
+    },
+    {
+      "left": 74,
+      "right": 74
+    },
+    {
+      "left": 75,
+      "right": 75
+    },
+    {
+      "left": 76,
+      "right": 76
+    },
+    {
+      "left": 77,
+      "right": 77
+    },
+    {
+      "left": 78,
+      "right": 78
+    },
+    {
+      "left": 79,
+      "right": 79
+    },
+    {
+      "left": 80,
+      "right": 80
+    },
+    {
+      "left": 81,
+      "right": 81
+    },
+    {
+      "left": 82,
+      "right": 82
+    },
+    {
+      "left": 83,
+      "right": 83
+    },
+    {
+      "left": 84,
+      "right": 84
+    },
+    {
+      "left": 85,
+      "right": 85
+    },
+    {
+      "left": 86,
+      "right": 86
+    },
+    {
+      "left": 87,
+      "right": 87
+    },
+    {
+      "left": 88,
+      "right": 88
+    },
+    {
+      "left": 89,
+      "right": 89
+    },
+    {
+      "left": 90,
+      "right": 90
+    },
+    {
+      "left": 91,
+      "right": 91
+    },
+    {
+      "left": 92,
+      "right": 92
+    },
+    {
+      "left": 93,
+      "right": 93
+    },
+    {
+      "left": 94,
+      "right": null
+    },
+    {
+      "left": 95,
+      "right": null
+    },
+    {
+      "left": 96,
+      "right": null
+    },
+    {
+      "left": 97,
+      "right": null
+    },
+    {
+      "left": 98,
+      "right": 94
+    },
+    {
+      "left": 99,
+      "right": 95
+    },
+    {
+      "left": 100,
+      "right": 96
+    },
+    {
+      "left": 101,
+      "right": 97
+    },
+    {
+      "left": null,
+      "right": 98
+    },
+    {
+      "left": null,
+      "right": 99
+    },
+    {
+      "left": null,
+      "right": 100
+    },
+    {
+      "left": null,
+      "right": 101
+    },
+    {
+      "left": 102,
+      "right": 102
+    },
+    {
+      "left": 103,
+      "right": 103
+    },
+    {
+      "left": 104,
+      "right": 104
+    },
+    {
+      "left": 105,
+      "right": 105
+    },
+    {
+      "left": 106,
+      "right": 106
+    },
+    {
+      "left": 107,
+      "right": 107
+    },
+    {
+      "left": 108,
+      "right": 108
+    },
+    {
+      "left": 109,
+      "right": 109
+    },
+    {
+      "left": 110,
+      "right": 110
+    },
+    {
+      "left": 111,
+      "right": 111
+    },
+    {
+      "left": 112,
+      "right": 112
+    },
+    {
+      "left": 113,
+      "right": 113
+    },
+    {
+      "left": 114,
+      "right": 114
+    },
+    {
+      "left": 115,
+      "right": 115
+    },
+    {
+      "left": 116,
+      "right": 116
+    }
+  ],
+  "spans": [],
+  "regions": [
+    {
+      "side": "left",
+      "startLine": 0,
+      "endLine": 11,
+      "change": "modified",
+      "entityKind": "orphan",
+      "entityName": "module-level",
+      "counterpartStartLine": 0
+    },
+    {
+      "side": "left",
+      "startLine": 19,
+      "endLine": 39,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "subtotal",
+      "counterpartStartLine": 19
+    },
+    {
+      "side": "left",
+      "startLine": 44,
+      "endLine": 50,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "total",
+      "counterpartStartLine": 44
+    },
+    {
+      "side": "left",
+      "startLine": 54,
+      "endLine": 57,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "describe",
+      "counterpartStartLine": 54
+    },
+    {
+      "side": "left",
+      "startLine": 69,
+      "endLine": 75,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "discountAll",
+      "counterpartStartLine": 69
+    },
+    {
+      "side": "left",
+      "startLine": 79,
+      "endLine": 82,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "shippingFor",
+      "counterpartStartLine": 79
+    },
+    {
+      "side": "left",
+      "startLine": 86,
+      "endLine": 89,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "sumOf",
+      "counterpartStartLine": 86
+    },
+    {
+      "side": "left",
+      "startLine": 94,
+      "endLine": 97,
+      "change": "moved",
+      "entityKind": "method",
+      "entityName": "floorAt",
+      "counterpartStartLine": 98
+    },
+    {
+      "side": "left",
+      "startLine": 105,
+      "endLine": 108,
+      "change": "deleted",
+      "entityKind": "method",
+      "entityName": "legacyRate",
+      "counterpartStartLine": 105
+    },
+    {
+      "side": "right",
+      "startLine": 0,
+      "endLine": 11,
+      "change": "modified",
+      "entityKind": "orphan",
+      "entityName": "module-level",
+      "counterpartStartLine": 0
+    },
+    {
+      "side": "right",
+      "startLine": 19,
+      "endLine": 39,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "subtotal",
+      "counterpartStartLine": 19
+    },
+    {
+      "side": "right",
+      "startLine": 44,
+      "endLine": 50,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "total",
+      "counterpartStartLine": 44
+    },
+    {
+      "side": "right",
+      "startLine": 54,
+      "endLine": 57,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "describe",
+      "counterpartStartLine": 54
+    },
+    {
+      "side": "right",
+      "startLine": 69,
+      "endLine": 75,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "discountAll",
+      "counterpartStartLine": 69
+    },
+    {
+      "side": "right",
+      "startLine": 79,
+      "endLine": 82,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "shippingFor",
+      "counterpartStartLine": 79
+    },
+    {
+      "side": "right",
+      "startLine": 86,
+      "endLine": 89,
+      "change": "modified",
+      "entityKind": "method",
+      "entityName": "sumOf",
+      "counterpartStartLine": 86
+    },
+    {
+      "side": "right",
+      "startLine": 98,
+      "endLine": 101,
+      "change": "moved",
+      "entityKind": "method",
+      "entityName": "floorAt",
+      "counterpartStartLine": 94
+    },
+    {
+      "side": "right",
+      "startLine": 105,
+      "endLine": 108,
+      "change": "added",
+      "entityKind": "method",
+      "entityName": "currentRate",
+      "counterpartStartLine": null
+    }
+  ]
+}

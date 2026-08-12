@@ -1,0 +1,57 @@
+<!--
+  Colours for the experimental semantic viewer.
+
+  Foreground and background are never set from here. These values are the colour of an underline, a
+  dotted line, a wave or a box. They deliberately clash with the syntax colour of the thing they
+  mark: an earlier version reused each kind's own syntax colour, so every mark was the same hue as
+  the text above it and nothing was visible.
+-->
+<scheme name="Darcula" version="142" parent_scheme="Darcula">
+  <attributes>
+    <option name="SEMDIFF_PLAIN">
+      <value>
+        <option name="FOREGROUND" value="FFA657"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_STRING">
+      <value>
+        <option name="FOREGROUND" value="FF7EB6"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="4DD0E1"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_TYPE">
+      <value>
+        <option name="FOREGROUND" value="AED581"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="64B5F6"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_DELIMITER">
+      <value>
+        <option name="FOREGROUND" value="BCAAA4"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_PARSE_ERROR">
+      <value>
+        <option name="FOREGROUND" value="FF5252"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_MOVED">
+      <value>
+        <option name="FOREGROUND" value="CE93D8"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_ENTITY">
+      <value>
+        <option name="FOREGROUND" value="4DB6AC"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

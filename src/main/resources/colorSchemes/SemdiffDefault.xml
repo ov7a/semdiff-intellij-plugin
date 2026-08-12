@@ -1,0 +1,57 @@
+<!--
+  Colours for the experimental semantic viewer.
+
+  Foreground and background are never set from here. These values are the colour of an underline, a
+  dotted line, a wave or a box. They deliberately clash with the syntax colour of the thing they
+  mark: an earlier version reused each kind's own syntax colour, so every mark was the same hue as
+  the text above it and nothing was visible.
+-->
+<scheme name="Default" version="142" parent_scheme="Default">
+  <attributes>
+    <option name="SEMDIFF_PLAIN">
+      <value>
+        <option name="FOREGROUND" value="E8710A"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_STRING">
+      <value>
+        <option name="FOREGROUND" value="C2185B"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="00838F"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_TYPE">
+      <value>
+        <option name="FOREGROUND" value="558B2F"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="1565C0"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_DELIMITER">
+      <value>
+        <option name="FOREGROUND" value="6D4C41"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_PARSE_ERROR">
+      <value>
+        <option name="FOREGROUND" value="D50000"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_MOVED">
+      <value>
+        <option name="FOREGROUND" value="6A1B9A"/>
+      </value>
+    </option>
+    <option name="SEMDIFF_ENTITY">
+      <value>
+        <option name="FOREGROUND" value="00695C"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

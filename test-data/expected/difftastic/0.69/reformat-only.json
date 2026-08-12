@@ -1,0 +1,83 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": null,
+      "right": 3
+    },
+    {
+      "left": null,
+      "right": 4
+    },
+    {
+      "left": null,
+      "right": 5
+    },
+    {
+      "left": 3,
+      "right": 6
+    },
+    {
+      "left": null,
+      "right": 7
+    },
+    {
+      "left": null,
+      "right": 8
+    },
+    {
+      "left": 4,
+      "right": 9
+    },
+    {
+      "left": null,
+      "right": 10
+    },
+    {
+      "left": null,
+      "right": 11
+    },
+    {
+      "left": null,
+      "right": 12
+    },
+    {
+      "left": 5,
+      "right": 13
+    },
+    {
+      "left": 6,
+      "right": 14
+    }
+  ],
+  "spans": [
+    {
+      "side": "right",
+      "line": 4,
+      "startChar": 16,
+      "endChar": 17,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 11,
+      "startChar": 22,
+      "endChar": 23,
+      "kind": "plain"
+    }
+  ],
+  "regions": []
+}

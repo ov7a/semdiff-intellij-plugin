@@ -1,0 +1,39 @@
+{
+  "type": "changed",
+  "granularity": "line-range",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    }
+  ],
+  "spans": [],
+  "regions": [
+    {
+      "side": "left",
+      "startLine": 0,
+      "endLine": 2,
+      "change": "modified",
+      "entityKind": "orphan",
+      "entityName": "module-level",
+      "counterpartStartLine": 0
+    },
+    {
+      "side": "right",
+      "startLine": 0,
+      "endLine": 2,
+      "change": "modified",
+      "entityKind": "orphan",
+      "entityName": "module-level",
+      "counterpartStartLine": 0
+    }
+  ]
+}

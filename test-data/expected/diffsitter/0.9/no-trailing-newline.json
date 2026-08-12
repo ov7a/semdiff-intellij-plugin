@@ -1,0 +1,4 @@
+{
+  "type": "unsupported",
+  "reason": "diffsitter produced no output (exit 1): Error: Unsupported file type with no fallback command specified."
+}

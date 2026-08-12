@@ -1,0 +1,26 @@
+{
+  "type": "changed",
+  "granularity": "line-range",
+  "alignment": [
+    {
+      "left": null,
+      "right": 0
+    },
+    {
+      "left": 0,
+      "right": 1
+    }
+  ],
+  "spans": [],
+  "regions": [
+    {
+      "side": "right",
+      "startLine": 0,
+      "endLine": 1,
+      "change": "added",
+      "entityKind": "function",
+      "entityName": "added",
+      "counterpartStartLine": null
+    }
+  ]
+}

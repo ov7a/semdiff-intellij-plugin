@@ -1,0 +1,5 @@
+{
+  "name": "svc",
+  "port": 9090,
+  "tls": true
+}

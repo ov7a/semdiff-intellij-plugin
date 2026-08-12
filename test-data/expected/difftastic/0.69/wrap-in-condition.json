@@ -1,0 +1,107 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": null,
+      "right": 1
+    },
+    {
+      "left": 1,
+      "right": 2
+    },
+    {
+      "left": 2,
+      "right": 3
+    },
+    {
+      "left": 3,
+      "right": 4
+    },
+    {
+      "left": null,
+      "right": 5
+    },
+    {
+      "left": 4,
+      "right": 6
+    }
+  ],
+  "spans": [
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 2,
+      "endChar": 4,
+      "kind": "keyword"
+    },
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 5,
+      "endChar": 6,
+      "kind": "delimiter"
+    },
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 6,
+      "endChar": 11,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 11,
+      "endChar": 12,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 12,
+      "endChar": 18,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 19,
+      "endChar": 20,
+      "kind": "keyword"
+    },
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 21,
+      "endChar": 22,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 22,
+      "endChar": 23,
+      "kind": "delimiter"
+    },
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 24,
+      "endChar": 25,
+      "kind": "delimiter"
+    },
+    {
+      "side": "right",
+      "line": 4,
+      "startChar": 2,
+      "endChar": 3,
+      "kind": "delimiter"
+    }
+  ],
+  "regions": []
+}

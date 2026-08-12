@@ -1,0 +1,59 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": 3,
+      "right": 3
+    },
+    {
+      "left": 4,
+      "right": 4
+    },
+    {
+      "left": 5,
+      "right": 5
+    },
+    {
+      "left": 6,
+      "right": 6
+    },
+    {
+      "left": 7,
+      "right": 7
+    },
+    {
+      "left": 8,
+      "right": 8
+    }
+  ],
+  "spans": [
+    {
+      "side": "left",
+      "line": 3,
+      "startChar": 4,
+      "endChar": 24,
+      "kind": "comment"
+    },
+    {
+      "side": "right",
+      "line": 3,
+      "startChar": 4,
+      "endChar": 67,
+      "kind": "comment"
+    }
+  ],
+  "regions": []
+}

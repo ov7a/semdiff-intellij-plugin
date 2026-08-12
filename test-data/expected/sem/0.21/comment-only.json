@@ -1,0 +1,63 @@
+{
+  "type": "changed",
+  "granularity": "line-range",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": 3,
+      "right": 3
+    },
+    {
+      "left": 4,
+      "right": 4
+    },
+    {
+      "left": 5,
+      "right": 5
+    },
+    {
+      "left": 6,
+      "right": 6
+    },
+    {
+      "left": 7,
+      "right": 7
+    },
+    {
+      "left": 8,
+      "right": 8
+    }
+  ],
+  "spans": [],
+  "regions": [
+    {
+      "side": "left",
+      "startLine": 2,
+      "endLine": 8,
+      "change": "modified",
+      "entityKind": "class",
+      "entityName": "Retry",
+      "counterpartStartLine": 2
+    },
+    {
+      "side": "right",
+      "startLine": 2,
+      "endLine": 8,
+      "change": "modified",
+      "entityKind": "class",
+      "entityName": "Retry",
+      "counterpartStartLine": 2
+    }
+  ]
+}

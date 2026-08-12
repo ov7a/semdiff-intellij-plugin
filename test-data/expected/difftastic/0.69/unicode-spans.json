@@ -1,0 +1,65 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": 3,
+      "right": 3
+    },
+    {
+      "left": 4,
+      "right": 4
+    },
+    {
+      "left": 5,
+      "right": 5
+    },
+    {
+      "left": 6,
+      "right": 6
+    }
+  ],
+  "spans": [
+    {
+      "side": "left",
+      "line": 1,
+      "startChar": 11,
+      "endChar": 16,
+      "kind": "string"
+    },
+    {
+      "side": "left",
+      "line": 5,
+      "startChar": 11,
+      "endChar": 19,
+      "kind": "string"
+    },
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 11,
+      "endChar": 16,
+      "kind": "string"
+    },
+    {
+      "side": "right",
+      "line": 5,
+      "startChar": 11,
+      "endChar": 18,
+      "kind": "string"
+    }
+  ],
+  "regions": []
+}

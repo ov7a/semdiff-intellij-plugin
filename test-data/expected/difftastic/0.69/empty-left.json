@@ -1,0 +1,16 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": null,
+      "right": 1
+    }
+  ],
+  "spans": [],
+  "regions": []
+}

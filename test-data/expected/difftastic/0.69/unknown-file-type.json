@@ -1,0 +1,91 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    }
+  ],
+  "spans": [
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 0,
+      "endChar": 5,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 5,
+      "endChar": 6,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 6,
+      "endChar": 10,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 10,
+      "endChar": 11,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 11,
+      "endChar": 16,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 0,
+      "endChar": 5,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 5,
+      "endChar": 6,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 6,
+      "endChar": 10,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 10,
+      "endChar": 11,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 11,
+      "endChar": 16,
+      "kind": "plain"
+    }
+  ],
+  "regions": []
+}

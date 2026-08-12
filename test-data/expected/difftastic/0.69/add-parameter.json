@@ -1,0 +1,90 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": 3,
+      "right": 3
+    },
+    {
+      "left": 4,
+      "right": 4
+    },
+    {
+      "left": 5,
+      "right": 5
+    },
+    {
+      "left": 6,
+      "right": 6
+    },
+    {
+      "left": 7,
+      "right": 7
+    }
+  ],
+  "spans": [
+    {
+      "side": "left",
+      "line": 4,
+      "startChar": 44,
+      "endChar": 52,
+      "kind": "type"
+    },
+    {
+      "side": "left",
+      "line": 4,
+      "startChar": 52,
+      "endChar": 53,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 4,
+      "startChar": 53,
+      "endChar": 56,
+      "kind": "keyword"
+    },
+    {
+      "side": "right",
+      "line": 3,
+      "startChar": 68,
+      "endChar": 69,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 3,
+      "startChar": 70,
+      "endChar": 78,
+      "kind": "type"
+    },
+    {
+      "side": "right",
+      "line": 3,
+      "startChar": 79,
+      "endChar": 87,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 4,
+      "startChar": 44,
+      "endChar": 52,
+      "kind": "plain"
+    }
+  ],
+  "regions": []
+}

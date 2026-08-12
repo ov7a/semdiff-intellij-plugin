@@ -1,0 +1,11 @@
+.reference/
+.gradle/
+.intellijPlatform/
+# Gradle build directories only. A bare "build/" also matches source packages named "build",
+# which silently kept build-logic's sources out of git and broke CI while it worked locally.
+/build/
+/*/build/
+.kotlin/
+.idea/
+*.iml
+local.properties

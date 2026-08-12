@@ -1,0 +1,60 @@
+{
+  "type": "changed",
+  "granularity": "line-range",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": null,
+      "right": 3
+    },
+    {
+      "left": 3,
+      "right": 4
+    },
+    {
+      "left": 4,
+      "right": 5
+    }
+  ],
+  "spans": [],
+  "regions": [
+    {
+      "side": "left",
+      "startLine": 2,
+      "endLine": 3,
+      "change": "modified",
+      "entityKind": "property",
+      "entityName": "port",
+      "counterpartStartLine": 2
+    },
+    {
+      "side": "right",
+      "startLine": 2,
+      "endLine": 3,
+      "change": "modified",
+      "entityKind": "property",
+      "entityName": "port",
+      "counterpartStartLine": 2
+    },
+    {
+      "side": "right",
+      "startLine": 3,
+      "endLine": 4,
+      "change": "added",
+      "entityKind": "property",
+      "entityName": "tls",
+      "counterpartStartLine": null
+    }
+  ]
+}

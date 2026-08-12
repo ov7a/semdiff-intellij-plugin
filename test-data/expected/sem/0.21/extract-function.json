@@ -1,0 +1,80 @@
+{
+  "type": "changed",
+  "granularity": "line-range",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": null
+    },
+    {
+      "left": 3,
+      "right": null
+    },
+    {
+      "left": 4,
+      "right": null
+    },
+    {
+      "left": 5,
+      "right": 2
+    },
+    {
+      "left": null,
+      "right": 3
+    },
+    {
+      "left": null,
+      "right": 4
+    },
+    {
+      "left": null,
+      "right": 5
+    },
+    {
+      "left": null,
+      "right": 6
+    },
+    {
+      "left": null,
+      "right": 7
+    }
+  ],
+  "spans": [],
+  "regions": [
+    {
+      "side": "left",
+      "startLine": 0,
+      "endLine": 5,
+      "change": "modified",
+      "entityKind": "function",
+      "entityName": "report",
+      "counterpartStartLine": 4
+    },
+    {
+      "side": "right",
+      "startLine": 0,
+      "endLine": 2,
+      "change": "added",
+      "entityKind": "function",
+      "entityName": "gross",
+      "counterpartStartLine": null
+    },
+    {
+      "side": "right",
+      "startLine": 4,
+      "endLine": 7,
+      "change": "modified",
+      "entityKind": "function",
+      "entityName": "report",
+      "counterpartStartLine": 0
+    }
+  ]
+}

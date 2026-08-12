@@ -1,0 +1,75 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": null,
+      "right": 3
+    },
+    {
+      "left": 3,
+      "right": 4
+    },
+    {
+      "left": 4,
+      "right": 5
+    }
+  ],
+  "spans": [
+    {
+      "side": "left",
+      "line": 2,
+      "startChar": 10,
+      "endChar": 11,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 2,
+      "startChar": 12,
+      "endChar": 14,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 2,
+      "startChar": 10,
+      "endChar": 13,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 2,
+      "startChar": 14,
+      "endChar": 15,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 3,
+      "startChar": 2,
+      "endChar": 8,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 3,
+      "startChar": 9,
+      "endChar": 13,
+      "kind": "plain"
+    }
+  ],
+  "regions": []
+}

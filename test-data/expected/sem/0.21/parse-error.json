@@ -1,0 +1,35 @@
+{
+  "type": "changed",
+  "granularity": "line-range",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    }
+  ],
+  "spans": [],
+  "regions": [
+    {
+      "side": "left",
+      "startLine": 0,
+      "endLine": 1,
+      "change": "deleted",
+      "entityKind": "function",
+      "entityName": "ok",
+      "counterpartStartLine": 0
+    },
+    {
+      "side": "right",
+      "startLine": 0,
+      "endLine": 1,
+      "change": "added",
+      "entityKind": "orphan",
+      "entityName": "module-level",
+      "counterpartStartLine": null
+    }
+  ]
+}

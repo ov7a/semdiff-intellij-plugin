@@ -1,0 +1,105 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    }
+  ],
+  "spans": [
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 15,
+      "endChar": 16,
+      "kind": "string"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 16,
+      "endChar": 21,
+      "kind": "string"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 21,
+      "endChar": 22,
+      "kind": "string"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 22,
+      "endChar": 23,
+      "kind": "string"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 23,
+      "endChar": 28,
+      "kind": "string"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 28,
+      "endChar": 29,
+      "kind": "string"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 15,
+      "endChar": 16,
+      "kind": "string"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 16,
+      "endChar": 21,
+      "kind": "string"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 21,
+      "endChar": 22,
+      "kind": "string"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 22,
+      "endChar": 23,
+      "kind": "string"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 23,
+      "endChar": 28,
+      "kind": "string"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 28,
+      "endChar": 29,
+      "kind": "string"
+    }
+  ],
+  "regions": []
+}

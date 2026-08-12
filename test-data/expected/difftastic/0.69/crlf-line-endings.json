@@ -1,0 +1,35 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    }
+  ],
+  "spans": [
+    {
+      "side": "left",
+      "line": 1,
+      "startChar": 8,
+      "endChar": 9,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 1,
+      "startChar": 8,
+      "endChar": 9,
+      "kind": "plain"
+    }
+  ],
+  "regions": []
+}

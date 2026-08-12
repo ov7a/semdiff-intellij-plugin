@@ -1,0 +1,150 @@
+{
+  "type": "changed",
+  "granularity": "intra-line",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    }
+  ],
+  "spans": [
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 0,
+      "endChar": 3,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 3,
+      "endChar": 4,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 4,
+      "endChar": 6,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 6,
+      "endChar": 7,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 7,
+      "endChar": 8,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 8,
+      "endChar": 9,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 9,
+      "endChar": 10,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 10,
+      "endChar": 11,
+      "kind": "plain"
+    },
+    {
+      "side": "left",
+      "line": 0,
+      "startChar": 11,
+      "endChar": 12,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 0,
+      "endChar": 3,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 3,
+      "endChar": 4,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 4,
+      "endChar": 6,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 6,
+      "endChar": 7,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 7,
+      "endChar": 8,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 8,
+      "endChar": 9,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 9,
+      "endChar": 10,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 10,
+      "endChar": 11,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 11,
+      "endChar": 12,
+      "kind": "plain"
+    },
+    {
+      "side": "right",
+      "line": 0,
+      "startChar": 12,
+      "endChar": 13,
+      "kind": "plain"
+    }
+  ],
+  "regions": []
+}

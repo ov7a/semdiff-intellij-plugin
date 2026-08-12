@@ -1,0 +1,87 @@
+{
+  "type": "changed",
+  "granularity": "line-range",
+  "alignment": [
+    {
+      "left": 0,
+      "right": 0
+    },
+    {
+      "left": 1,
+      "right": 1
+    },
+    {
+      "left": 2,
+      "right": 2
+    },
+    {
+      "left": 3,
+      "right": 3
+    },
+    {
+      "left": 4,
+      "right": 4
+    },
+    {
+      "left": 5,
+      "right": 5
+    },
+    {
+      "left": null,
+      "right": 6
+    },
+    {
+      "left": null,
+      "right": 7
+    },
+    {
+      "left": null,
+      "right": 8
+    },
+    {
+      "left": null,
+      "right": 9
+    },
+    {
+      "left": null,
+      "right": 10
+    },
+    {
+      "left": null,
+      "right": 11
+    },
+    {
+      "left": null,
+      "right": 12
+    },
+    {
+      "left": null,
+      "right": 13
+    },
+    {
+      "left": 6,
+      "right": 14
+    }
+  ],
+  "spans": [],
+  "regions": [
+    {
+      "side": "left",
+      "startLine": 2,
+      "endLine": 6,
+      "change": "modified",
+      "entityKind": "function",
+      "entityName": "apply",
+      "counterpartStartLine": 2
+    },
+    {
+      "side": "right",
+      "startLine": 2,
+      "endLine": 14,
+      "change": "modified",
+      "entityKind": "function",
+      "entityName": "apply",
+      "counterpartStartLine": 2
+    }
+  ]
+}
