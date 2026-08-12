@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "dev.ov7a.semdiff"
-version = "0.1.0"
+// version lives in gradle.properties so a release build can override it with -Pversion=<tag>
 
 dependencies {
     intellijPlatform {

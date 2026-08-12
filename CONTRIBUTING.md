@@ -80,6 +80,23 @@ Gradle 9, Kotlin 2.4, JVM 21, IntelliJ Platform Gradle Plugin 2.18.
 
 `buildPlugin` is wired into `assemble`, so `build` produces the installable zip.
 
+The version lives in `gradle.properties` and can be overridden per build with `-Pversion=1.2.3`,
+which is how the release workflow stamps the tag into the plugin descriptor and the zip name.
+
+## Releasing
+
+Create a release in the GitHub UI. Publishing it creates the tag and fires
+[`.github/workflows/release.yml`](.github/workflows/release.yml), which builds with the tag as the
+version — a leading `v` is stripped — and attaches the zip to that release.
+
+The workflow runs `build`, so the tests and the plugin verifier gate the release. Two things to know
+if it fails for a reason that is not your change:
+
+- It downloads the IntelliJ platform (a few GB) and the pinned CLI tools, so a cold run is slow.
+- The goldens in `test-data/expected` were generated on macOS. If a tool's output differs on Linux
+  the golden tests will fail there first; regenerate on Linux and commit if that turns out to be
+  real, rather than assuming the release is broken.
+
 `verifyPlugin` prints a few dozen `nonexistent 'classPath' elements` warnings. Those come from the
 Plugin Verifier reading the *target IDE's* own `product-info.json`, which lists module jars absent
 from the distribution. They are about the IDE, not this plugin.

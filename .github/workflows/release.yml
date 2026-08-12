@@ -1,0 +1,39 @@
+name: Release
+
+# Creating a release in the GitHub UI publishes it and creates the tag; that fires this.
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write # to attach the plugin zip to the release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      # The tag is the version. A leading "v" is stripped so v1.2.3 and 1.2.3 both work.
+      - name: Resolve version from tag
+        run: echo "VERSION=${TAG#v}" >> "$GITHUB_ENV"
+        env:
+          TAG: ${{ github.event.release.tag_name }}
+
+      # `build` runs the tests and the plugin verifier, then packages the zip.
+      # -Psemdiff.requireTools=true makes a missing CLI tool fail instead of skipping its tests.
+      - name: Build
+        run: ./gradlew build -Pversion="$VERSION" -Psemdiff.requireTools=true
+
+      - name: Attach the plugin to the release
+        run: gh release upload "$TAG" build/distributions/*.zip --clobber
+        env:
+          TAG: ${{ github.event.release.tag_name }}
+          GH_TOKEN: ${{ github.token }}
